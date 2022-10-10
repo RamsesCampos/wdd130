@@ -4,6 +4,14 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@500&display=swap');
 /* https://fonts.google.com/specimen/Didact+Gothic?query=Gothic */
 
+
+
+.logo_link {
+
+  
+}
+
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #F5EFE6   ;
