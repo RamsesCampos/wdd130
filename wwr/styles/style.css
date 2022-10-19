@@ -47,8 +47,13 @@ body {
     font-size: 22px;
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
 }
+
+div{
+    display: grid;
+    grid-template-columns: 3fr;
+}
+
 footer{
     margin-top: 200px;
     padding: 25px 50px;
@@ -128,7 +133,7 @@ header {
 }    
 
 .logo {
-    max-width: 150px;
+    max-width: 80px;
 }
 
 
