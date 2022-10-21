@@ -38,7 +38,8 @@
   grid-template-columns: 50px 50px 50px 50px 50px;
   margin top: -20px; 
   margin left: -20px;
-  row gap: -20px;
+  column-gap: -20px;
+  row-gap: -20px;
 }
 .red2 {
   width: 100px; 
