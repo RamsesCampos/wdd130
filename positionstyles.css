@@ -161,7 +161,7 @@
 
 .yellow5 {
   background: yellow;
-  
+  height: 300px; 
 } 
 
 
@@ -170,6 +170,7 @@
   height: 100px; 
   background-color: blue; 
 } 
+
 
 
 
