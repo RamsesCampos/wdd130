@@ -105,32 +105,44 @@
 } 
 
 
-
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 400px;
 }
+
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%;
   background-color: red; 
+  grid-column: 1/2;
+  grid-row: span 3;
 } 
 .green4 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
   background-color: green; 
+  grid-column: 2/2;
+  margin-top: 0px;
+  margin-left: 0px;
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
   background-color: gold; 
+  grid-column: 2/2;
+  margin-top: 0px;
+  margin-left: 0px;
 } 
 .blue4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+  width: 100%; 
+  background-color: blue;
+  grid-column: 2/2;
+  
+  margin-top: 0px;
+  margin-left: 0px;
 } 
+
+
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
