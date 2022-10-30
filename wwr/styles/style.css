@@ -76,7 +76,6 @@ footer{
     background-color: #7895B2;
     margin-top: 200px;
     padding: 25px 50px;
-    margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,7 +102,9 @@ footer p a:hover {
     font-size: 22px;
 }   
 footer .social img {
-    padding-top: 15px;
+    padding-top: 0px;
+    
+    
 }
 
 h2{
@@ -205,8 +206,8 @@ main section img {
 }
 
 .mountains {
-    border: 10px solid   #7895B2;
-    margin: 200px 0;
+    border: 10px solid   #ffffff;
+    margin: 0 auto;
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
@@ -267,6 +268,7 @@ nav a:hover {
     grid-column: 2/4;
     grid-row: 2/3;
 }
+
 
 
 @media screen and (max-width: 900px) {
